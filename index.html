@@ -5,15 +5,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Frontend Mentor | Pod request access landing page</title>
 </head>
 <body>
-  Publish your podcasts everywhere.
+  <main>
+    <div class="context">
+      <div class="logo">
+        <img src="./assets/desktop/logo.svg" alt="logo" class="logo_thumb">
+      </div>
+        <div class="block">
+          <div class="text">
+            <h1 class="title">Publish your podcasts <span class="word">everywhere.</span></h1>
+            <p>Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, 
+              Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>
+            <form class="form" novalidate>
+              <div class="field">
+                <input type="email" id="email" placeholder="Email address" class="email" autocomplete="off">
+                <button type="submit" class="btn">Request access</button>
+              </div>
+              <span class="error"></span>
+            </form>
+            <div class="thumbs">
+              <img src="./assets/desktop/spotify.svg" alt="spotify">
+              <img src="./assets/desktop/apple-podcast.svg" alt="apple-podcast">
+              <img src="./assets/desktop/google-podcasts.svg" alt="google-podcasts">
+              <img src="./assets/desktop/pocket-casts.svg" alt="pocket-casts">
+            </div>
+          </div>
+        </div>
+        <div class="photo">
+          <img src="./assets/desktop/image-host.jpg" clss="img-desctop" alt="main-desktop">
+          <img src="./assets/tablet/image-host.jpg" class="img-tablet" alt="main-tablet">
+          <img src="./assets/mobile/image-host.jpg" clss="img-mobile" alt="main-mobile">          
+        </div>
 
-  Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, 
-  Apple Podcasts, Google Podcasts, Pocket Casts and more!
+        <div class="dots">
+          <img src="./assets/desktop/bg-pattern-dots.svg" clss="dots_thumb" alt="dots">
+        </div>
+      </div>
+  </main>
 
-  Request access
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+    <script src="JavaScript/script.js"></script>
 </body>
 </html>
