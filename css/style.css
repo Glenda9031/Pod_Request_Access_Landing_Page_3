@@ -133,7 +133,7 @@ body {
     top: 0;
 }
 
-.img-desktop {
+.img-desctop {
     display: block;
     width: 100%;
     height: auto;
@@ -188,7 +188,7 @@ body {
         margin-bottom: 31px;
     }
 
-    .img-desktop {
+    .img-desctop {
         display: none;
     }
 
@@ -295,6 +295,10 @@ body {
 
     .photo {
         height: 100%;
+    }
+
+    .img-desctop {
+        display: none;
     }
 
     .img-tablet {
